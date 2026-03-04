@@ -1,18 +1,15 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
+const Header: QuartzComponent = () => {
   return (
-  <header class="verath-header">
-    <a href="/">
-      <img src="/static/verath-logo.png"/>
-    </a>
-    <div class="verath-title">
+    <header class="verath-header">
+      <a href="/">
+        <img src="/static/verath-logo.png" alt="Verath Logo" />
+      </a>
       <h1>VERATH</h1>
-      <p>Um RPG criado por Gustavo Tito.</p>
-    </div>
-    {children}
-  </header>
-)
+      <p>Um RPG criado por Gustavo Tito</p>
+    </header>
+  )
 }
 
 Header.css = `

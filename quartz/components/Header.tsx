@@ -4,7 +4,7 @@ const Header: QuartzComponent = () => {
   return (
     <div class="verath-header">
       <a href="/">
-        <img src="/static/verath-logo.png" alt="Verath Logo" class="verath-logo"/>
+        <img src="/static/verath-logo.png" class="verath-logo"/>
       </a>
     </div>
   )

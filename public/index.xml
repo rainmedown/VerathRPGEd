@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>00.1 O que é Verath? Qual a Premissa?</title>
+    <link>https://quartz.jzhao.xyz/00.-META/00.1-O-que-%C3%A9-Verath-Qual-a-Premissa</link>
+    <guid>https://quartz.jzhao.xyz/00.-META/00.1-O-que-%C3%A9-Verath-Qual-a-Premissa</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 04 Mar 2026 21:36:28 GMT</pubDate>
+  </item><item>
+    <title>00.2 Tom &amp; Estética</title>
+    <link>https://quartz.jzhao.xyz/00.-META/00.2-Tom--and--Est%C3%A9tica</link>
+    <guid>https://quartz.jzhao.xyz/00.-META/00.2-Tom--and--Est%C3%A9tica</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 04 Mar 2026 21:36:28 GMT</pubDate>
+  </item><item>
+    <title>00.3 Temas Centrais</title>
+    <link>https://quartz.jzhao.xyz/00.-META/00.3-Temas-Centrais</link>
+    <guid>https://quartz.jzhao.xyz/00.-META/00.3-Temas-Centrais</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 04 Mar 2026 21:36:28 GMT</pubDate>
+  </item><item>
+    <title>00.4 Pilares &amp; Regras do Jogo</title>
+    <link>https://quartz.jzhao.xyz/00.-META/00.4-Pilares--and--Regras-do-Jogo</link>
+    <guid>https://quartz.jzhao.xyz/00.-META/00.4-Pilares--and--Regras-do-Jogo</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 04 Mar 2026 21:36:28 GMT</pubDate>
+  </item><item>
+    <title>01.0. Glossário</title>
+    <link>https://quartz.jzhao.xyz/01.-SISTEMA/01.0.-Gloss%C3%A1rio</link>
+    <guid>https://quartz.jzhao.xyz/01.-SISTEMA/01.0.-Gloss%C3%A1rio</guid>
+    <description><![CDATA[ PV = pontos de Vida PS = pontos de Sanidade DC = Classe de Dificuldade, o valor mínimo necessário de uma rolagem 1D20 (no caso, XDY) = 1 (X) dado (quantidade de dados usado) de 20 (Y) lados Atributo = Habilidade =. ]]></description>
+    <pubDate>Wed, 04 Mar 2026 21:36:28 GMT</pubDate>
+  </item><item>
+    <title>01.1. Atributos</title>
+    <link>https://quartz.jzhao.xyz/01.-SISTEMA/01.1.-Atributos</link>
+    <guid>https://quartz.jzhao.xyz/01.-SISTEMA/01.1.-Atributos</guid>
+    <description><![CDATA[ AGILIDADE Define o quão rápido e preciso seu corpo reage ao que acontece ao redor. ]]></description>
+    <pubDate>Wed, 04 Mar 2026 21:36:28 GMT</pubDate>
+  </item><item>
+    <title>01.2.1 Habilidades</title>
+    <link>https://quartz.jzhao.xyz/01.-SISTEMA/01.2.1-Habilidades</link>
+    <guid>https://quartz.jzhao.xyz/01.-SISTEMA/01.2.1-Habilidades</guid>
+    <description><![CDATA[ Gaste 30 pontos nas habilidades que mais te chame atenção. ]]></description>
+    <pubDate>Wed, 04 Mar 2026 21:36:28 GMT</pubDate>
+  </item><item>
+    <title>01.2.2 Habilidades Sociais</title>
+    <link>https://quartz.jzhao.xyz/01.-SISTEMA/01.2.2-Habilidades-Sociais</link>
+    <guid>https://quartz.jzhao.xyz/01.-SISTEMA/01.2.2-Habilidades-Sociais</guid>
+    <description><![CDATA[ Agilizar Burocracia (x/2) Saber como lidar com órgãos públicos, filas, formulários e processos, cortando caminho onde outras pessoas travam. ]]></description>
+    <pubDate>Wed, 04 Mar 2026 21:36:28 GMT</pubDate>
+  </item><item>
+    <title>01.2.3 Habilidades Técnicas</title>
+    <link>https://quartz.jzhao.xyz/01.-SISTEMA/01.2.3-Habilidades-T%C3%A9cnicas</link>
+    <guid>https://quartz.jzhao.xyz/01.-SISTEMA/01.2.3-Habilidades-T%C3%A9cnicas</guid>
+    <description><![CDATA[ Análise Toxicológica (x/2) Identificar substâncias químicas, venenos ou contaminantes e entender seus efeitos no corpo. ]]></description>
+    <pubDate>Wed, 04 Mar 2026 21:36:28 GMT</pubDate>
+  </item><item>
+    <title>01.2.4 Habilidades Investigativas</title>
+    <link>https://quartz.jzhao.xyz/01.-SISTEMA/01.2.4-Habilidades-Investigativas</link>
+    <guid>https://quartz.jzhao.xyz/01.-SISTEMA/01.2.4-Habilidades-Investigativas</guid>
+    <description><![CDATA[ Análise Comportamental (x/3) Observar gestos, padrões de fala e postura pra identificar mentira, nervosismo ou intenção. ]]></description>
+    <pubDate>Wed, 04 Mar 2026 21:36:28 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

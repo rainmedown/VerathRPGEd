@@ -1,4 +1,4 @@
-import { QuartzComponent } from "./types"
+<file name=0 path=/Users/gustavotito/quartz/quartz/components/Header.tsx>import { QuartzComponent } from "./types"
 
 const Header: QuartzComponent = () => {
   return (
@@ -25,4 +25,4 @@ header h1 {
   margin: 0;
   flex: auto;
 }
-`
+`</file>

@@ -19,16 +19,18 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 
 PageTitle.css = `
 .verath-title {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: max-content;
-  margin: 1.5rem 0 2rem;
+
+  /* break out of sidebar column and center relative to page */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .verath-logo {

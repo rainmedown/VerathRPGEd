@@ -2,17 +2,17 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 
 const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
   return (
-    <header>
-      <a href="/">
-        <img
-          src="/static/verath-logo.png"
-          alt="Verath"
-          style={{ height: "60px" }}
-        />
-      </a>
-      {children}
-    </header>
-  )
+  <header class="verath-header">
+    <a href="/">
+      <img src="/static/verath-logo.png" alt="Verath" />
+    </a>
+    <div class="verath-title">
+      <h1>VERATH</h1>
+      <p>Codex of the Ruptured World</p>
+    </div>
+    {children}
+  </header>
+)
 }
 
 Header.css = `

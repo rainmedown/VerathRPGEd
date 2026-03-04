@@ -48,3 +48,37 @@ blockquote, pre, code {
 ::-webkit-scrollbar-thumb {
   background: #2a2a2a;
 }
+
+.explorer {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  border-right: 1px solid #2a2a2a;
+  padding-right: 1rem;
+}
+
+.verath-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.verath-header img {
+  height: 90px;
+  margin-bottom: 0.5rem;
+}
+
+.verath-title h1 {
+  font-family: "Cinzel", serif;
+  letter-spacing: 0.15em;
+  color: #d6c89a;
+  font-size: 2.5rem;
+}
+
+.verath-title p {
+  font-family: "Libre Baskerville", serif;
+  color: #8a7c5d;
+  font-size: 0.9rem;
+}

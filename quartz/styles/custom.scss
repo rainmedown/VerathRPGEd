@@ -1,3 +1,50 @@
 @use "./base.scss";
+/* fundo geral */
+body {
+  background:
+    url("/static/textures/parchment-dark.jpg"),
+    radial-gradient(circle at top, #1a1814, #0b0b0b 60%);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+/* largura maior pra parecer compendium */
+.page {
+  max-width: 1200px;
+}
 
-// put your custom CSS here!
+/* títulos estilo grimdark */
+h1, h2, h3, h4 {
+  font-family: "Cinzel", serif;
+  letter-spacing: 0.04em;
+  color: #d6c89a;
+}
+
+/* links dourados */
+a {
+  color: #bfa76f;
+}
+
+a:hover {
+  color: #e7d79a;
+}
+
+/* sidebar */
+.explorer {
+  background: #0f0f0f;
+  border-right: 1px solid #2a2a2a;
+}
+
+/* cards / blocos */
+blockquote, pre, code {
+  background: #141312;
+  border: 1px solid #2a2a2a;
+}
+
+/* scrollbar dark */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+}

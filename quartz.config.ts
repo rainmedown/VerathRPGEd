@@ -20,38 +20,36 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
-      typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
-      },
-      colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
-      },
+  fontOrigin: "googleFonts",
+  cdnCaching: true,
+  typography: {
+    header: "Cinzel",
+    body: "Libre Baskerville",
+    code: "JetBrains Mono"
+  },
+  colors: {
+    lightMode: {
+      light: "#1b1b1b",
+      lightgray: "#2a2a2a",
+      gray: "#6b6a65",
+      darkgray: "#c9c4b5",
+      dark: "#e6e1cf",
+      secondary: "#8a7c5d",
+      tertiary: "#bfa76f",
+      highlight: "#2f2a1e",
     },
+    darkMode: {
+      light: "#e6e1cf",       // texto principal (pergaminho)
+      lightgray: "#c9c4b5",
+      gray: "#8a887f",
+      darkgray: "#2a2a2a",
+      dark: "#0f0f0f",        // fundo profundo
+      secondary: "#8a7c5d",   // dourado velho
+      tertiary: "#bfa76f",    // dourado claro
+      highlight: "#1a1814",   // fundo de blocos
+    }
+  }
+}
   },
   plugins: {
     transformers: [

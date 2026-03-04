@@ -20,21 +20,24 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 PageTitle.css = `
 .verath-title {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 14px;
-  padding: 18px 0 8px;
+  justify-content: center;
+  text-align: center;
+  margin: 1.5rem 0 2rem;
 }
 
 .verath-logo {
-  height: 64px;
+  height: 90px;
   width: auto;
+  margin-bottom: 6px;
   image-rendering: auto;
-  filter: drop-shadow(0 10px 18px rgba(0,0,0,.45));
+  filter: drop-shadow(0 12px 20px rgba(0,0,0,.5));
 }
 
 .verath-title h1 {
   margin: 0;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
 }
 
 .page-title {

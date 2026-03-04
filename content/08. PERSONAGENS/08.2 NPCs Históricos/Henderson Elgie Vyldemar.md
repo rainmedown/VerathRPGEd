@@ -1,5 +1,0 @@
-**Henderson Elgie Vyldemar** surgiu em [[05.6.1 Resumão|Astravann]] como um [[04.1.2 Umbralin|Umbralino]] [[04.2.1.4 Velado|Velado]] moldado pela Deusa [[Drear’Mahir]], em imagem e semelhança, para observar, redigir e catalogar todas as espécies da fauna e flora no reino.
-
-No início de sua jornada, após perambular por centenas de quilômetros, conduziu a construção de meia dúzia de pequenos castelos, bibliotecas e fortes para guardar e estocar todos os textos de seus achados, e assim foi formada o início da [[05.6.2 Casa Vyldemar|Casa Vyldemar]], no meio de Astravann.
-
-Por fim, depois de algumas dezenas de anos, Elgie pôde terminar sua obra e se afastar dos catálogo e rituais… algumas fontes dizem que ele se tornou parte do Véu do [[02.1.1 Avesso|Avesso]] após alguns testes arcanos [[06.1.2 Escola de Biomancia|biomânticos]], usando de tecido biológico para formar Energia Arcana, darem errado e outros dizem que ele voltou a fazer parte da Drear’Mahir após sua missão terminou.

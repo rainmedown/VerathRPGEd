@@ -6,11 +6,10 @@ import { i18n } from "../i18n"
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
-  return (
-  <div class={classNames(displayClass, "page-title")}>
-    <a href={baseDir}>
-      <img src="/static/verath-logo.png" alt="Verath" style="height:60px;" />
-    </a>
+return (
+  <div class="verath-title">
+    <img src="/static/verath-logo.png" class="verath-logo"/>
+    <h1>{title}</h1>
   </div>
 )
 }

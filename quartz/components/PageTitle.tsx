@@ -8,7 +8,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
 return (
   <div class="verath-title">
-    <img src="/verath-logo.png" class="verath-logo"/>
+    <img src={`${baseDir}/verath-logo.png`} class="verath-logo"/>
     <h1>{title}</h1>
   </div>
 )

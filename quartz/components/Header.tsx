@@ -1,16 +1,16 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent } from "./types"
 
 const Header: QuartzComponent = () => {
   return (
-    <header class="verath-header">
+    <div class="verath-header">
       <a href="/">
-        <img src="/static/verath-logo.png" alt="Verath Logo" />
+        <img src="/static/verath-logo.png" alt="Verath Logo" class="verath-logo"/>
       </a>
-      <h1>VERATH</h1>
-      <p>Um RPG criado por Gustavo Tito</p>
-    </header>
+    </div>
   )
 }
+
+export default (() => Header) satisfies QuartzComponent
 
 Header.css = `
 header {
@@ -26,5 +26,3 @@ header h1 {
   flex: auto;
 }
 `
-
-export default (() => Header) satisfies QuartzComponentConstructor

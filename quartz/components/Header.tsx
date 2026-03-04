@@ -1,7 +1,18 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
-  return children.length > 0 ? <header>{children}</header> : null
+  return (
+    <header>
+      <a href="/">
+        <img
+          src="/static/verath-logo.png"
+          alt="Verath"
+          style={{ height: "60px" }}
+        />
+      </a>
+      {children}
+    </header>
+  )
 }
 
 Header.css = `

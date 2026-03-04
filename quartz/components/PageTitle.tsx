@@ -6,10 +6,12 @@ import { i18n } from "../i18n"
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
+  // pathToRoot can return "." (no trailing slash). Normalize so we never generate ".static/...".
+  const rootDir = baseDir.endsWith("/") ? baseDir : `${baseDir}/`
 
   return (
     <div class="verath-title">
-      <img src={`${baseDir}static/verath-logo.png`} class="verath-logo" alt="Verath Logo" />
+      <img src={`${rootDir}static/verath-logo.png`} class="verath-logo" alt="Verath Logo" />
       <h1>{title}</h1>
     </div>
   )

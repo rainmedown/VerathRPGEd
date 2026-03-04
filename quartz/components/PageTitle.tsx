@@ -8,13 +8,23 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
 return (
   <div class="verath-title">
-    <img src="/static/verath-logo.png" class="verath-logo"/>
+    <img src="/verath-logo.png" class="verath-logo"/>
     <h1>{title}</h1>
   </div>
 )
 }
 
 PageTitle.css = `
+.verath-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.verath-logo {
+  height: 120px;
+  margin-bottom: 10px;
+}
+
 .page-title {
   font-size: 1.75rem;
   margin: 0;

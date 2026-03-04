@@ -4,11 +4,11 @@ const Header: QuartzComponent = ({ children }: QuartzComponentProps) => {
   return (
   <header class="verath-header">
     <a href="/">
-      <img src="/static/verath-logo.png" alt="Verath" />
+      <img src="/static/verath-logo.png"/>
     </a>
     <div class="verath-title">
       <h1>VERATH</h1>
-      <p>Codex of the Ruptured World</p>
+      <p>Um RPG criado por Gustavo Tito.</p>
     </div>
     {children}
   </header>

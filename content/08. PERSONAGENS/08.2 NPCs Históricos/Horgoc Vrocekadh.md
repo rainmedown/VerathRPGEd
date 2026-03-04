@@ -1,0 +1,1 @@
+Esse arquivo diz sobre a vida de Horgoc antes de ascender ao papel de Konnior.

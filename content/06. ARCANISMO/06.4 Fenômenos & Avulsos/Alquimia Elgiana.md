@@ -1,0 +1,1 @@
+Criada por [[Henderson Elgie Vyldemar]], um dos grandes nomes da [[06.1.2 Escola de Biomancia|Escola de Biomancia]].

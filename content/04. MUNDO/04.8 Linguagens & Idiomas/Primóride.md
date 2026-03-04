@@ -1,0 +1,1 @@
+Primeira língua criada em Verath, criada pelo [[02.2.1 Panteão Primordial|Panteão Primordial]].

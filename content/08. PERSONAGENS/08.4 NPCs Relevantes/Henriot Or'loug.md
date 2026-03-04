@@ -1,0 +1,3 @@
+Henriot Or’loug é um [[04.1.3 Lor’nah|Lor'nah]] masculino de 1,88m com uma postura pouco curvada e muito musculoso. Seu rosto tem uma complexão conjunta de puma e onça, com seu focinho tendo um formato mais curto e oblongo. Seus olhos são de onça, com sua íris tendo uma cor alaranjada e sua pele em si, ainda que pouco peluda, tem uma cor mais dourada, parecido muito com ouro.
+
+General dos [[04.5.3.2 Ceifadores de Vapor ou Norvalis Imperial Army|Ceifadores de Vapor]] e braço-direito do [[Imperador Oshkaphof Vaelune III]].

@@ -92,6 +92,4 @@ const config: QuartzConfig = {
   },
 }
 
-export default defineConfig({
-  output: "docs",
-  configuration: }
+export default config

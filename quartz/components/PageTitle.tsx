@@ -53,8 +53,6 @@ blockquote, pre, code {
   padding-right: 1rem;
 }
 
----
-
 import { QuartzComponent } from "./types"
 import { pathToRoot } from "../util/path"
 

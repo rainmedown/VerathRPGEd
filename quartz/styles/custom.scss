@@ -1,33 +1,32 @@
-import { Component } from "some-library";
+@use "./base.scss";
 
-export const defaultContentPageLayout = {
-  beforeBody: [
-    Component.PageTitle(),
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
-  ],
-  left: [
-    Component.MobileOnly(Component.Spacer()),
-    // other components...
-  ],
-  // other layout properties...
-};
+body {
+  background:
+    url("/static/textures/parchment-dark.jpg"),
+    radial-gradient(circle at top, #1a1814, #0b0b0b 60%);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
 
-export const defaultListPageLayout = {
-  beforeBody: [
-    Component.PageTitle(),
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-  ],
-  left: [
-    Component.MobileOnly(Component.Spacer()),
-    // other components...
-  ],
-  // other layout properties...
-};
+.page {
+  max-width: 1200px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Cinzel", serif;
+  letter-spacing: 0.04em;
+  color: #d6c89a;
+}
+
+a {
+  color: #bfa76f;
+}
+
+a:hover {
+  color: #e7d79a;
+}
+
+.explorer {
+  background: #0f0f0f;
+  border-right: 1px solid #2a2a2a;
+}

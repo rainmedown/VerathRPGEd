@@ -1,5 +1,3 @@
-> Documento central de navegação do universo de Verath.
-![[Logo - Verath v2 2.png]]
 # 🧠 META
 [[00.1 O que é Verath? Qual a Premissa?|O que é Verath?]]
 [[00.2 Tom & Estética|Tom & Estética]]

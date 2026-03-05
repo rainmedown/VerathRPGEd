@@ -15,11 +15,11 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
   left: [Component.Search(), Component.Darkmode(), Component.Explorer()],
-  right: [Component.TableOfContents()],
+  right: [],
 }
 
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
   left: [Component.Search(), Component.Darkmode(), Component.Explorer()],
-  right: [Component.TableOfContents()],
+  right: [],
 }

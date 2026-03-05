@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "",
-    pageTitleSuffix: "",
+    pageTitle: "Verath Compendium",
+    pageTitleSuffix: " — RPG Edition",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "VerathRPGEd",
+    baseUrl: "rainmedown.github.io/VerathRPGEd",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -75,8 +75,12 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage(),
-      Plugin.FolderPage(),
+      Plugin.ContentPage({
+        showBacklinks: true,
+      }),
+      Plugin.FolderPage({
+        showSubfolders: true,
+      }),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,

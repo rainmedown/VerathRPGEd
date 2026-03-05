@@ -25,18 +25,15 @@ PageTitle.css = `
   justify-content: center;
   text-align: center;
 
-  /* break out of sidebar column and center relative to page */
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  width: 100%;
+  margin: 1.5rem auto 2rem auto;
 }
 
 .verath-logo {
   height: 90px;
   width: auto;
-  margin-bottom: 6px;
+  margin: 0 auto 6px auto;
+  display: block;
   image-rendering: auto;
   filter: drop-shadow(0 12px 20px rgba(0,0,0,.5));
 }

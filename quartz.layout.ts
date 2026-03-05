@@ -7,19 +7,19 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
+      "Verath Repository": "https://github.com/rainmedown/VerathRPGEd",
     },
   }),
 }
 
 export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [Component.PageTitle(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
   left: [Component.Search(), Component.Darkmode(), Component.Explorer()],
-  right: [],
+  right: [Component.TableOfContents()],
 }
 
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
   left: [Component.Search(), Component.Darkmode(), Component.Explorer()],
-  right: [],
+  right: [Component.TableOfContents()],
 }
